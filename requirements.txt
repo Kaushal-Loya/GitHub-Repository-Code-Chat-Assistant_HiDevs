@@ -1,1 +1,41 @@
-# Add your project dependencies here
+# GitHub & Web Ingestion
+PyGithub>=2.1.1
+requests>=2.31.0
+
+# LangChain Ecosystem
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-groq>=0.1.0
+langchain-huggingface>=0.0.3
+langchain-chroma>=0.1.1
+langchain-mongodb>=0.1.0
+
+# Embedding Model
+sentence-transformers>=2.7.0
+torch>=2.0.0
+
+# Vector Stores
+chromadb>=0.5.0
+faiss-cpu>=1.8.0
+
+# LLM Backend
+groq>=0.9.0
+
+# Memory / Database
+pymongo>=4.6.0
+motor>=3.3.0
+
+# API Backend
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+fastapi-cors>=0.0.0
+
+# Evaluation (optional)
+deepeval>=0.21.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+tenacity>=8.2.0
